@@ -47,5 +47,13 @@ aside {
 main {
   background-color: var(--shape-body);
   border-radius: 12px;
-  padding-block: 80px;
+  padding: 80px 160px;
+  overflow: auto;
+
+  flex-direction: column;
+
+  & > h2 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+  }
 }
