@@ -38,7 +38,8 @@
             type="text"
             id="event-title"
             name="event-title"
-            placeholder="Nome do evento">
+            placeholder="Nome do evento"
+            required>
           </div>
 
           <div class="flex">
@@ -48,7 +49,7 @@
               type="date"
               id="event-start"
               name="event-start"
-              >
+              required>
             </div>
 
             <div class="input-wrapper flex-1">
@@ -57,7 +58,7 @@
               type="date"
               id="event-end"
               name="event-end"
-              >
+              required>
             </div>
           </div>
 
@@ -106,9 +107,247 @@
             name="description" 
             id="description"
             rows="5" 
-            placeholder="Escreva sobre os detalhes do evento"></textarea>
+            placeholder="Escreva sobre os detalhes do evento"
+            required>
+            </textarea>
+          </div>
+        </fieldset>
+
+        <fieldset id="customization">
+          <div class="field-heading flex">
+            <img src="assets/icons/paintbrush.svg" alt="Ícone de pincel">
+            <legend>Personalização</legend>
+          </div>  
+
+          <div class="input-wrapper">
+            <label>Cor principal</label>
+            <div class="color-options">
+              <label class="color-option color-blue">
+                <input 
+                type="radio" 
+                name="color" 
+                id="blue"
+                value="blue"
+                checked>
+              </label>
+              <label class="color-option color-navy">
+                <input 
+                type="radio" 
+                name="color" 
+                id="navy"
+                value="navy">
+              </label>
+              <label class="color-option color-purple">
+                <input 
+                type="radio" 
+                name="color" 
+                id="purple"
+                value="purple">
+              </label>
+              <label class="color-option color-fuschia">
+                <input 
+                type="radio" 
+                name="color" 
+                id="fuschia"
+                value="fuschia">
+              </label>
+              <label class="color-option color-pink">
+                <input 
+                type="radio" 
+                name="color" 
+                id="pink"
+                value="pink">
+              </label>
+              <label class="color-option color-danger">
+                <input 
+                type="radio" 
+                name="color" 
+                id="danger"
+                value="danger">
+              </label>
+              <label class="color-option color-orange">
+                <input 
+                type="radio" 
+                name="color" 
+                id="orange"
+                value="orange">
+              </label>
+              <label class="color-option color-yellow">
+                <input 
+                type="radio" 
+                name="color" 
+                id="yellow"
+                value="yellow">
+              </label>
+              <label class="color-option color-lime">
+                <input 
+                type="radio" 
+                name="color" 
+                id="lime"
+                value="lime">
+              </label>
+              <label class="color-option color-green">
+                <input 
+                type="radio" 
+                name="color" 
+                id="green"
+                value="green">
+              </label>
+              <label class="color-option color-cyan">
+                <input 
+                type="radio" 
+                name="color" 
+                id="cyan"
+                value="cyan">
+              </label>
+            </div>
           </div>
 
+          <div class="input-wrapper">
+            <label>Tema do evento</label>
+            <div class="theme-options">
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="birthday"
+                value="birthday"
+                checked>
+                <img src="assets/themes/birthday.svg" alt="Festa de aniversário">
+                <span>Aniversário</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="children"
+                value="children">
+                <img src="assets/themes/children.svg" alt="Festa infantil">
+                <span>Infantil</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="graduation"
+                value="graduation">
+                <img src="assets/themes/graduation.svg" alt="Festa de formatura">
+                <span>Formatura</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="marriage"
+                value="marriage">
+                <img src="assets/themes/marriage.svg" alt="Festa de casamento">
+                <span>Casamento</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="baby-tea"
+                value="baby-tea">
+                <img src="assets/themes/baby-tea.svg" alt="Chá de bebê">
+                <span>Chá de bebê</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="bridal-shower"
+                value="bridal-shower">
+                <img src="assets/themes/bridal-shower.svg" alt="Chá de panela">
+                <span>Chá de panela</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="carnival"
+                value="carnival">
+                <img src="assets/themes/carnival.svg" alt="Festa de carnaval">
+                <span>Carnaval</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="easter"
+                value="easter">
+                <img src="assets/themes/easter.svg" alt="Festa de páscoa">
+                <span>Páscoa</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="saint-john"
+                value="saint-john">
+                <img src="assets/themes/saint-john.svg" alt="Festa são joão">
+                <span>São João</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="halloween"
+                value="halloween">
+                <img src="assets/themes/halloween.svg" alt="Festa de halloween">
+                <span>Halloween</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="christmas"
+                value="christmas">
+                <img src="assets/themes/christmas.svg" alt="Festa de natal">
+                <span>Natal</span>
+              </label>
+              <label class="theme-option">
+                <input 
+                type="radio" 
+                name="theme" 
+                id="other"
+                value="other">
+                <img src="assets/themes/other.svg" alt="Outro">
+                <span>Outro</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="input-wrapper flex-1">
+              <label>Estilo</label>
+              <div class="style-selector">
+                <label class="toggle-switch">
+                  <input type="checkbox" id="style">
+                  <span class="slider"></span>
+                  <span class="switch-text"></span>
+                </label> 
+              </div>
+            </div>
+
+            <div class="droparea-wrapper flex-2">
+              <label for="file-upload">Foto de capa</label>
+              <div class="file-wrapper">
+                <input 
+                type="file" 
+                name="file-upload" 
+                id="file-upload"
+                required>
+                <div class="file-button">
+                  <label for="file-upload" class="button">
+                    <img src="assets/icons/upload.svg" alt="Ícone de upload">
+                    <p>Selecionar</p>
+                  </label>
+                </div>
+                <div class="file-name"></div>
+              </div>
+            </div>
+          </div>
         </fieldset>
       </form>
     </main>

@@ -1,0 +1,34 @@
+.file-wrapper {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  cursor: pointer;
+
+  & input[type="file"] {
+    display: none;
+  }
+
+  .file-button {
+    background-color: var(--shape-hover);
+    border-radius: .5rem;
+   
+    .button {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .6rem .75rem;
+      cursor: pointer;
+      
+      & p {
+        font: var(--body-sm-semibold);
+      }
+    }
+  }
+
+  .file-name::before {
+    content: "Nenhum arquivo selecionado";
+    font: var(--body-md-regular);
+    color: var(--input-placeholder);
+  }
+}

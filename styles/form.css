@@ -11,6 +11,10 @@ fieldset {
   gap: 1rem;
 }
 
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
 .field-heading {
   margin-bottom: 0.5rem;
 
