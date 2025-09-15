@@ -39,3 +39,7 @@ input[type="date"] {
 #about-event .flex {
   gap: 1rem;
 }
+
+#contact .flex {
+  gap: 1rem;
+}
