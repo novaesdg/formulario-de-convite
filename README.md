@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional. 
+O projeto é um site desktop de convite para evento com formulário para geração do convite personalizado.
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional. 
+O projeto é um site desktop de convite para evento com formulário para geração do convite personalizado.
 
 ___
 
