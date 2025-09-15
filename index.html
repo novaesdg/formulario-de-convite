@@ -28,7 +28,7 @@
       <form method="post" enctype="multipart/form-data">
         <fieldset id="about-event">
           <div class="field-heading flex">
-            <img src="assets/icons/calendar.svg" alt="">
+            <img src="assets/icons/calendar.svg" alt="Ícone de calendário">
             <legend>Sobre o evento</legend>
           </div>  
 
@@ -388,6 +388,56 @@
             </div>
           </div>
         </fieldset>
+
+        <div id="terms" class="flex">
+          <hr>
+
+          <div class="terms-wrapper">
+            <div class="term-inner checkbox">
+              <input 
+              type="checkbox" 
+              id="term-condition"
+              name="term"
+              required>
+  
+              <label for="term-condition" class="checkbox-label">
+                <div class="checkbox-image"></div>
+                Li e concordo com os <strong>Termos e Condições</strong> e com a <strong>Política de Privacidade</strong>
+              </label>
+            </div>
+  
+            <div class="term-inner checkbox">
+              <input 
+              type="checkbox" 
+              id="term-email"
+              name="term">
+  
+              <label for="term-email" class="checkbox-label">
+                <div class="checkbox-image"></div>
+                Aceito receber atualizações e promoções por e-mail
+              </label>
+            </div>
+  
+            <div class="term-inner checkbox">
+              <input 
+              type="checkbox" 
+              id="term-sms"
+              name="term">
+  
+              <label for="term-sms" class="checkbox-label">
+                <div class="checkbox-image"></div>
+                Aceito receber atualizações e promoções por SMS
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="action-wrapper">
+          <button type="submit">
+            <img src="./assets/icons/ticket.svg" alt="Ícone de ticket">
+            Gerar convite
+          </button>
+        </div>
       </form>
     </main>
   </div>
